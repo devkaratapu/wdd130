@@ -1,0 +1,25 @@
+body {
+    background-color: tan;
+    margin: 0;
+}
+h1 {
+    background-color: orange;
+    color: orange;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 15px;
+    /* this is a note */
+}
+#highlight {
+    background-color: #ffff;
+    display: inline-block;
+}
+
+.section {
+    font-size: 1.3em;
+    max-width: 50%;
+    margin: 0 auto;
+
+}

@@ -1,0 +1,48 @@
+div.body{
+    position: 50px 50px;
+
+}
+
+body{
+    background-color: pink;
+    
+}
+
+#name{
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+#qoute{
+    text-align: center;
+    color: white; 
+}
+#title{
+    text-align: center;
+    color: white;
+}
+#title:hover{
+    color: black;
+}s
+#qoute2{
+    text-align: center;s
+}
+ol.olclass{
+    display: inline-block;
+    max-width: 350px;
+    text-align: left;
+    
+    
+}
+div.list{
+    list-style-position: inside;
+    text-align: center;
+    font-weight: 400;s
+}
+img{
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    
+}
+footer
