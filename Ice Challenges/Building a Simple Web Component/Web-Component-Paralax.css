@@ -1,0 +1,26 @@
+body, html {
+    height: 100%;
+  }
+  p{
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(136, 105, 116);
+  }
+
+  .paragraph{
+    text-align: center;
+  }
+
+.parallax {
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+  
+    /* Set a specific height */
+    min-height: 600px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
