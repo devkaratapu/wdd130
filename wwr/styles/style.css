@@ -29,10 +29,13 @@ main section{
 
 body {
     background-color: #e6edf3;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
 }
 
 header {
     background-color: rgb(85, 84, 84);
+
 }
 
 nav a{

@@ -1,0 +1,177 @@
+#content{
+    max-width: 2220px;
+    margin: 0;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+#hero-box {
+    position: relative;
+  }
+  
+  #hero-box button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+#hero-msg h1{
+    text-align: center;
+    position: absolute;
+    font-weight: bold;
+    font-size: 60px;
+    top: 30px;
+    left: 400px;
+}
+
+#hero-msg h4{
+    text-align: center;
+    font-size: 40px;
+}
+
+.button-box{
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: aqua;
+
+}
+
+body {
+    background-color: #e6edf3;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(to right, #141414, #915907); /* Gradient background */
+    right: auto;
+
+}
+.card-img {
+    width:100px;
+}
+
+nav a{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+    margin-right: 25px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+nav {
+    position: absolute;
+    right: 0px;
+    top: 154px;
+    bottom: 5px;
+  }
+
+nav a:hover {
+    background-color: rgb(63, 62, 62);
+    color: #f7b11a;
+}
+
+.home-title {
+    color: rgb(235, 187, 99);
+    text-shadow: black;
+    position: absolute;
+    margin : auto;
+    margin-left: 360px;
+}
+
+h4 {
+    position: absolute;
+    color: rgb(204, 199, 199);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: black;
+    top: 90px;
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 100px;
+}
+
+.book {
+    color: rgb(78, 147, 194);
+    text-decoration: none;
+}
+
+button {
+    border-radius: 33px;
+    width: 251px;
+    height: 77px;
+    font-size: 36px;
+    color: white;
+}
+
+.book:hover {
+    background-color: rgb(65, 63, 63);
+}
+
+.button:hover {
+    background-color: rgb(65, 63, 63);
+}
+
+.msg {
+    background-color: rgb(241, 234, 234);
+    
+}
+
+.msg h2 {
+    color: rgb(10, 53, 53);
+}
+
+.msg p {
+    color: rgb(23, 61, 61);
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer a:hover {
+    color: rgb(182, 133, 43);
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: lightgray;
+    color: rgb(65, 63, 63);
+}
+
+.logo {
+    width: 250px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+.team {
+    width: 100%;
+}
+
+.feild-img{
+    width: 150;
+}
+
+
+
