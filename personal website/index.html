@@ -1,21 +1,3 @@
-<!-- * Add your own picture
-
-* Replace the name with your own name
-
-* Pick your own background, or bonus points for the similar gradient background
-
-* Card is 940px wide
-
-* Card must be centered in the middle of the screen
-
-* Picture is 400px x 470px
-
-* 60px padding around the text on the left and right
-
-* 70px padding on the text on the top
-
-* 46px padding on the bottom below the boxes -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,51 +14,60 @@
             </a>
             <nav>
                 <a href="index.html">Home</a>
-                <a href="#">About</a>
-                <a href="site-plan-rafting.html">Galary</a>
+                <a href="about.html">About Us</a>
+                <a href="site-plan.html">Site Plan</a>
                 <a href="contactus.html">Contact Us</a>
             </nav>
         </header>
         <div id="hero">
             <div id="hero-box">
-                <img id="hero-img" src=" hero.png" alt="People enjoying white water rafting">
-                <button style="background-color: orange;">JOIN NOW</button>
-                <section id="hero-msg">
-                    <h1 class="home-title">"Unleash the Warrior within"</h1>
-                    <h4>Cricket is one of the ancient game played on planet earth. Cricket was introduced to North America via the English colonies as early as the 17th century, and in the 18th century it arrived in other parts of the globe. It was introduced to the West Indies by colonists and to India by British East India Company mariners.Cricket group of the Brigham Young University of Idaho started in April 2021. Students and faculty are welcome to join us and find the adventures of Cricket!  </h4>
-                </section>
+                <img id="hero-img" src="images/hero.png" alt="People enjoying white water rafting">
             </div>
+            <section id="hero-msg">
+                <h1 class="home-title">Unleash the Warrior within</h1>
+                <h4>Come play Cricket with us </h4>
+                <div class='button-box'>
+                    <a class='book' href="rates.html">Book Now</a>
+                </div>
+            </section>
         </div>
         <main class="home-grid">
-                <!-- Rest of your content -->
-                <section class="video-section">
-                  <video class="cricket" src="cricket.mp4" controls autoplay loop>
-                    Your browser does not support the video tag.
-                  </video>
-                </section>
-
-            <section class="field-card">
-                <h2>Where is the fire buring?</h2>
+            <section class="rivers-card">
+                <img class="card-img" src="images/SmithPark.jpg" alt="river in forest">
+                <img class="icon" src="images/river_icon.png" alt="river icon">
+                <h2>Smith Park</h2>
             </section>
-            <section class="rapid-card">
-                <!-- <img class="card-img" src="images/" alt="riverside park">
-                <img class="icon" src="images/" alt="oars icon"> -->
-                <h2>BYU-Idaho flied 5 & 6, Next to Ropes Course, Friday 5:30pm to 8:30pm</h2>
+            <section class="camping-card">
+                <img class="card-img" src="images/BYU-Idaho.jpg" alt="tent in mountains">
+                <img class="icon" src="images/fire_icon.png" alt="fire icon">
+                <h2>BYU-Idaho Field 5 & 6</h2>
             </section>
-            <div id="team"></div>
-            <img class="team" src="images/Our Team.jpg" alt="United Warriors Team">
+            <section class="rapids-card">
+                <img class="card-img" src="images/RiversidePark.jpg" alt="rafting boat">
+                <img class="icon" src="images/oars.png" alt="oars icon">
+                <h2>Riverside Park behind Rexburg Rapids </h2>
+            </section>
+            <div id="background"></div>
+            <img class="mountains" src="images/Team.png" alt="Misty mountains">
             <section class="msg">
-                <h2>More than Just the Game</h2>
-                <p>EIt requires both individual skill and nerve, as well as selfless teamwork. It calls for both short-term and long-term tactics. A good cricket match contains a combination of courage, daring, patience, aggression, flair, imagination, expertise, and fierce defiance that is unrivaled in other, more superficial sports</p>
+                <h2>More Than Just a Game</h2>
+                <p>So, why wait? Join our website and become part of an exciting cricket community at BYU Idaho. 
+                    Are you ready to swing the bat and hit it out of the park? Join us today and experience the 
+                    thrill of cricket like never before! </p>
+                <a class='join' href="rivers.html">Join Us</a>
             </section>
         </main>
     
         <footer>
-            <p>United Warrior &copy; 2023 - Dave Karatapu</p>
+            <p>Dry Oar &copy; 2023 - Dave Karatapu</p>
+            <p><a href="site-plan-rafting.html">Site Plan</a></p>
             <p><a href="contactus.html">Contact Us</a></p>
             <div class="social">
                 <a href="https://facebook.com" target="_blank">
                     <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
                 </a>
                 <a href="https://instagram.com" target="_blank">
                     <img src="images/instagram.png" alt="instagram icon">
@@ -84,5 +75,43 @@
             </div>
         </footer>
     </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
 </body>
 </html>

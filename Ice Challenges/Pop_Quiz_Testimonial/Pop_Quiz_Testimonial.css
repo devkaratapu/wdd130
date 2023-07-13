@@ -1,6 +1,9 @@
 body {
+    display: grid;
+    place-items: center;
     text-align: center;
-    background-color: rgb(27, 204, 65);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(111,237,60,1) 35%, rgba(0,212,255,1) 73%);
     width: auto;
     padding-top: 30px;
     padding-bottom: 300px;
@@ -9,19 +12,38 @@ body {
 
 }
 
-.my-img {
-    display: grid;
-    place-items: center;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    height:230px;
-    object-fit: cover;
-
+.Quotition_Mark img {
+    width: 100px;
+    height: 100px;
+    
+}
+.container {
+    display: flex;
+    gap: 20px;
 }
 
+.box {
+    align-self: end;
+    width: 20px !important;
+    height: 20px;
+    background-color: black;
+}
+
+#last_box {
+    flex: 1;
+}
+.my-img {
+    grid-column: 1;
+    place-items: center;
+}
+.my-img img {
+    width: 100%;
+}
+
+
+
 .my-box {
+    display: grid;
     grid-column: 2/3;
     background-color: azure;
     width: 850px;
@@ -35,9 +57,6 @@ body {
 main {
     display: grid;
     grid-template-columns: 470px 1fr 0;
-    max-width: 940px;
-    column-gap: 60px;
-    height: 470px;
     box-shadow: 5px 5px 15px #00000023;
     background-color: white;
     }
