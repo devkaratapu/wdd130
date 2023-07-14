@@ -47,6 +47,7 @@ main section{
 }
 
 body {
+    width: 100%;
     background-color: #e6edf3;
     font-family: Helvetica, Arial, sans-serif;
     font-family: Arial, Helvetica, sans-serif;
@@ -83,17 +84,19 @@ nav {
 nav a{
     text-align: center;
     color: rgb(177, 187, 187);
+    text-shadow: #111110 1px 1px;
     text-decoration: none;
     padding: 35px;
 }
 
 nav a:hover {
-    background-color: rgb(65, 63, 63);
-    color: #d9c2a3;
+    background-color: rgb(214, 210, 210);
+    color: #111110;
 }
 
 .home-title {
-    color: rgb(235 218 16);
+    color: rgb(230, 220, 27);
+    text-shadow: #111110 2px 1px;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -105,7 +108,9 @@ h4 {
 .book {
     color: rgb(78, 147, 194);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: #111110 2px 1px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius:5px;
@@ -113,18 +118,39 @@ h4 {
 
 .join {
     color: rgb(78, 147, 194);
+    text-shadow: #111110 2px 1px;
     text-decoration: none;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
 }
 
+.welcome {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
 .book:hover {
-    background-color: rgb(65, 63, 63);
+    background-color: rgb(169, 50, 50);
+    border-radius: 15px;
+    border: #111110 2em;
+    color: white;
 }
 
 .join:hover {
-    background-color: rgb(65, 63, 63);
+    background-color: rgb(169, 50, 50);
+    border-radius: 15px;
+    color: white;
+}
+
+.where {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bolder;
+    margin-bottom: 0%;
+
 }
 
 .msg {
@@ -136,6 +162,7 @@ h4 {
 
 .msg h2 {
     color: rgb(235 218 16);
+    text-shadow: #111110 2px 1px;
     font-size: 2em;;
 }
 
@@ -158,7 +185,7 @@ h4 {
 }
 
 .card-img {
-    border: 10px solid #d9c2a3;
+    border: 10px solid rgb(230, 220, 27);
     width: 100%;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
@@ -181,9 +208,54 @@ h4 {
 
 main section img {
     box-sizing: border-box;
-    width: 1000%;
     margin-top: 60px;
 }
+
+.teamimg {
+    width: 1000%;
+}
+
+.teamabout {
+    width: 100%;
+
+}
+
+p{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 20px;
+    ;
+  }
+
+.aboutustext {
+    font-size: larger;
+    background-color: #6f7364;
+}
+
+.paragraph{
+    text-align: center;;
+    margin-bottom: 0%;
+    margin-top: 50px;
+  }
+.aboutph {
+    text-align: center;
+    padding: 80px 60px 10px 60px;
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+.parallax {
+    /* The image used */
+    background-image: url("Team.png");
+  
+    /* Set a specific height */
+    min-height: 1200px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 .home-grid {
     display: grid;
