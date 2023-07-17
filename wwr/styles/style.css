@@ -1,3 +1,90 @@
+/* Rivers pages body CSS*/
+
+.riversh1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.p1 .p1 {
+    text-align: center;
+}
+
+.river1 {
+    width: 100%;
+}
+
+.river2 {
+    width: 100%;
+}
+
+.river3 {
+    width: 100%;
+}
+
+.river4 {
+    width: 100%;
+}
+
+
+
+
+/* rivers css end */
+
+/* contact us css */
+
+.sub-heading {
+    background-image: url("../images/bkg-signature-trips.jpg");
+    background-repeat: repeat;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    border-bottom: 1px solid #fff;
+    padding: 45px 0 58px;
+    text-align: center;
+}
+.header.echo-header-v1, section, footer {
+    float: left;
+    width: 100%;
+}
+
+
+.main-content {
+    display: grid;
+    gap: 60px;
+    grid-template-columns: 2fr 1fr;
+    background-color: #f7f3ef;
+  }
+
+  .main-content p {
+    margin: 0 0 12px;
+}
+  
+.column1 {
+    margin-left: 300px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.column2 {
+    text-align: left;
+    margin-top: 40px;
+
+}
+
+/* .contact-form {
+    background-color: #f7f3ef;
+    display: grid;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: 70px;
+
+} */
+
+
+
+/* contact us css ends */
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
